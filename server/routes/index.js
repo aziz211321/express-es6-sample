@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'World' });
+    res.send('My Student ID is 21952506. Welcome to Express');
 });
 
 export default router;
